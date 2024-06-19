@@ -1,104 +1,119 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>portfolio.com</title>
     <link rel="stylesheet" href="port.css">
-    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
-    <div class="container">
-        <nav>
-        <a href="#" class="logo">
-            <h2>PORTFOLIO.</h2>
-        </a>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-        <div class="social-icons">
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#"><i class="fa-brands fa-github"></i></a>
-            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-        </div>
-        </nav>
-        <!--navbar end-->
-<!--start showcase-->
-<div class="content-wrapper">
-    <div class="content-left">
-        <p class="lead">Hello</p>
-        <div class="txt-content">
-            <div class="normal_txt">I'm a</div>
-            <div class="change_txt">Front End Developer</div>
-        </div>
-        <div>
-            <p>This is Deekshitha.
-                <br>I am a 3rd year student pursuing Information Technology from Gokaraju Lailavathi Women's Engineering College,Hyderabad.
-                I have a good grip on Programming languages like C,C++,Java,MySQL,Python.
-            </p>
-            <button type="submit">Hire Me !</button>
-            <button type="submit">Download CV</button>
+    <div class="header">
+        <div class="leftside">DEEKSHITHA I</div>
+        <div class="rightside">
+            <div class="home"><a href="#home-link" id="home-link">HOME</a></div>
+            <div class="about"><a href="#aboutme" id="about-link">ABOUT</a></div>
+            <div class="skills"><a href="#skills-section" id="skills-link">SKILLS</a></div>
+            <div class="projects"><a href="#projects-section" id="projects-link">PROJECTS</a></div>
+            <div class="achievements"><a href="#achievements-section" id="achievements-link">ACHIEVEMENTS</a></div>
+            <div class="contact"><a href="#contac" id="contact-link">CONTACT</a></div>
         </div>
     </div>
-    <div class="content-right">
-        <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80" alt="">
 
-            </div>
+    <div class="aboutme">
+        <div  class="aboutme-content">
+            
+             <h2>Hello, I am</h2>
+             <h1>Deekshitha I</h1>
+             <div><button class="aboutmebutton" onclick="location.href='#aboutmedet'">ABOUT ME</button></div>
+        </div>
+    </div>
 
+    <div id="aboutmedet" class="aboutmedetail">
+        <h1 class="h11">ABOUT ME</h1>
+        <h3 class="h33">Hello Everyone! I am Deekshitha I. I am currently pursuing engineering in Information Technology Department. I have a very good knowledge in various programming languages i.e., C, C++, Python, Java, HTML, CSS, and JavaScript. Through this collection of work, I hope to give you a glimpse into the projects I've created using these languages. From developing applications to designing web interfaces, I am still excited to work on many other projects.</h3>
+    </div>
+
+    <h1 class="ski">SKILLS</h1>
+    <div id="skills-section" class="skills-section">
+        <div class="skill">
+            <i class="fab fa-cuttlefish"></i>
+            <span>C</span>
         </div>
-        
-   
-    <section id="Projects" class="section-m1">
-        <h2>My Recent Projects</h2>
-        <br><br>
-        <div class="pro-container">
-            <div class="details-container">
-                <div class="article-container">
-                    <img src="babycare.png" alt="">
-                </div>
-                <h2>Landing Page</h2>
-            </div>
-            <div class="details-container">
-                <div class="article-container">
-                    <img src="tempconv.png" alt="">
-                </div>
-                <h2>Temperature Converter</h2>
-            </div>
-            <div class="details-container">
-                <div class="article-container">
-                    <img src="calci.png" alt="">
-                </div>
-                <h2>Calculator </h2>
-            </div>
+        <div class="skill">
+            <i class="fab fa-cuttlefish"></i>
+            <span>C++</span>
         </div>
-        <div class="pro-container">
-            <div class="details-container">
-                <div class="article-container">
-                    <img src="tictactoe.png" alt="">
-                </div>
-                <h2>TicTacToe</h2>
-            </div>
-            <div class="details-container">
-                <div class="article-container">
-                    <img src="https://tse2.mm.bing.net/th?id=OIP.Yhy7tRFKAghJTYO-8R81_wHaDt&amp;pid=Api&amp;P=0&amp;h=180" alt="">
-                </div>
-                <h2>Word Counter</h2>
-            </div>
+        <div class="skill">
+            <i class="fab fa-java"></i>
+            <span>Java</span>
         </div>
-    </section>
-    <!--end showcase-->
-<!--Skills start-->
-<div class="skills">
-    <h2>Skills</h2>
-    <div><i class="fa-brands fa-html5 html"></i></div>
-    <div><i class="fa-brands fa-css3-alt css3"></i></div>
-    <div><i class="fa-brands fa-js js"></i></div>
-    <div><i class="fa-brands fa-java java"></i></div>
+        <div class="skill">
+            <i class="fab fa-python"></i>
+            <span>Python</span>
+        </div>
+        <div class="skill">
+            <i class="fab fa-html5"></i>
+            <span>HTML/CSS</span>
+        </div>
+        <div class="skill">
+            <i class="fab fa-js"></i>
+            <span>JavaScript</span>
+        </div>
+    </div>
+
+    <h1 class="projs">PROJECTS</h1>
+    <div id="projects-section" class="projects-section">
+        <div class="project">
+            <h2>Image to Text to Speech</h2>
+            <p>This project converts images to text and then to speech using OCR and TTS technologies.</p>
+        </div>
+        <div class="project">
+            <h2>Temperature Converter</h2>
+            <p>A simple application to convert temperature between Celsius, Fahrenheit, and Kelvin.</p>
+        </div>
+        <div class="project">
+            <h2>Landing Page</h2>
+            <p>A modern and responsive landing page designed with HTML, CSS, and JavaScript.</p>
+        </div>
+        <div class="project">
+            <h2>Portfolio</h2>
+            <p>This personal portfolio showcases my projects, skills, and achievements.</p>
+        </div>
+    </div>
+
+    <h1 class="achieve">ACHIEVEMENTS</h1>
+    <div id="achievements-section" class="achievements-section">
+        <div class="achievement">
+            <h2>NPTEL Joy of Computing Certificate</h2>
+            <p>Received NPTEL Joy of Computing certificate for completing the course.</p>
+        </div>
+        <div class="achievement">
+            <h2>NPTEL Data Structures and Algorithms using Java Certificate</h2>
+            <p>Received NPTEL Data Structures and Algorithms using Java certificate for completing the course.</p>
+        </div>
+        <div class="achievement">
+            <h2>Infosys Springboard Fundamentals of Python Certificate</h2>
+            <p>Received Infosys Springboard Fundamentals of Python certificate for completing the course.</p>
+        </div>
+    </div>
+    <h1 class="contact">CONTACT</h1>
+<div id="contact-section" class="contact-section">
+    <div class="contact-info">
+        <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <p>Email: deekshitha@gmail.com</p>
+        </div>
+        <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <p>Phone: +1234567890</p>
+        </div>
+        <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>Location: Hyderabad, Telangana</p>
+        </div>
+    </div>
 </div>
-</div>
+
+
+    <script src="port.js"></script>
 </body>
 </html>
